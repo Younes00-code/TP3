@@ -31,16 +31,25 @@ Recherche par mot-clé (nom du patient)
 URL : /index?keyword=Ahmed
 Utilisation d'une méthode personnalisée dans PatientRepository
 
+![image](https://github.com/user-attachments/assets/edcc3095-62dd-4e3e-ba45-80f4e74827b8)
+
+
+
  3 Suppression d’un patient
 Lien de suppression dans le tableau
 Requête GET vers /delete?id=1
 Redirection vers la page principale après suppression
+
+![image](https://github.com/user-attachments/assets/d3a6a266-faa9-413f-b458-b72a6faadac4)
+
 
   4 Formulaire avec validation
 Vue formPatient.html avec formulaire de saisie
 Annotations de validation : @NotEmpty, @Size, @Past, etc.
 Utilisation de BindingResult pour afficher les erreurs
 Ajout et modification d’un patient via le même formulaire
+
+![image](https://github.com/user-attachments/assets/85f300ae-ca60-472e-bc0e-df5969ee3763)
 
 ![image](https://github.com/user-attachments/assets/64e98747-ad7c-4e82-a345-83aa051cf99e)
 
@@ -62,6 +71,10 @@ Accès restreint aux fonctionnalités selon le rôle :
 ROLE_USER : accès à la liste
 ROLE_ADMIN : suppression et ajout autorisés
 Formulaire de login personnalisé avec bootstrap
+![image](https://github.com/user-attachments/assets/d16f358a-2e64-4a3c-b452-dbef84c018f9)
+
+![image](https://github.com/user-attachments/assets/f050d1e1-508a-47e3-b43f-4b02a061a2aa)
+
 
 
 ![image](https://github.com/user-attachments/assets/9f10465e-b7c7-4df8-94fa-d1fbb84fcbfb)
